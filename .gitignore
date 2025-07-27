@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# Allow folders (so .c/.cpp files inside subfolders are also included)
+!*/
+
+# Allow only C and C++ files
+!*.c
+!*.cpp
+
+# Allow this .gitignore file itself
+!.gitignore
+
+# Ignore build and output files
+*.exe
+*.o
+*.bin
+*.out
+
+# Ignore IDE and tool-specific folders
+.cph/
+.vscode/
+__pycache__/
+build/
+dist/
